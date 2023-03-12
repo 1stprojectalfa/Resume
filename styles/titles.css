@@ -6,6 +6,15 @@
     text-align: center
 }
 
+.title-details{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman';
+    font-size: large;
+    margin-bottom: 1rem;
+    text-align: center
+}
+
 .subtitle{
     font-family: 'Times New Roman';
     font-weight: 900;
