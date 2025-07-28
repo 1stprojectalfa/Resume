@@ -1,82 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Andres Restrepo</title>
-    <link rel="stylesheet" href="./styles/titles.css" />
-  </head>
-  <body>
-    <p class="title">Andres Restrepo</p>
-    <div style="display: flex; flex-direction: row; justify-content: space-around;">
-      <div style="display: flex; flex-direction: column; justify-content: space-around">
-        <div class="title">Work Experience</div>
-        <!-- Experience 3-->
-        <div class="experience-item">
-          <p class="subtitle">Software Engineer I</p>
-          <p>Sierra Nevada Corporation</p>
-          <p>Centennial, Colorado</p>
-          <p>Aug 2022 - Present</p>
-          <p>Libraries: Cesium, React, Resium, Socket.IO.</p>
-          <p>Programming Languages: Typescript, Javascript, C#.</p>
-          <p>Streaming Processing: Apache Kafka, ActiveMQ.</p>
-          <p>Source Control: GIT, Bitbucket.</p>
-          <p>CI/CD: Docker, Bamboo.</p>
-          <p>Other: Webpack, XML, JSON, HTML, CSS.</p>
-        </div>
-        <!-- Experience 2-->
-        <div class="experience-item"> 
-          <p class="subtitle">Engineering Technician I</p>
-          <p>Terumo BCT</p>
-          <p>Lakewood, Colorado</p>
-          <p>Dec 2021 - Jul 2022</p>
-          <p>
-            &#x2022; Designing and implementing software automation protocols
-            that test the life expectancy of medical devices and their
-            subassemblies.
-          </p>
-          <p>
-            &#x2022; Troubleshooting and maintaining the configuration files
-            that handle the CAN bus infrastructure of automated testing
-            fixtures.
-          </p>
-          <p>
-            &#x2022; Building and maintaining python scripts that perform the
-            transferring, management and analysis of data logs.
-          </p>
-          <p>
-            &#x2022; Automating tasks in an embedded linux operating system
-            using Bash.
-          </p>
-          <p>Libraries: Pandas, Paramiko, Scikit-Learn.</p>
-          <p>Programming Languages: Python, Bash.</p>
-          <p>Source Control: GIT, GitHub.</p>
-          <p>Other: XML, JSON.</p>
-        </div>
-        <!-- Experience 1-->
-        <div class="experience-item">
-          <p class="subtitle">Engineering Intern</p>
-          <p>Terumo BCT</p>
-          <p>Lakewood, Colorado</p>
-          <p>Jul 2021 - Dec 2021</p>
-          <p>
-            &#x2022; Worked in a Linux based environment in the development of
-            software protocols that interact with the embedded system, pneumatic
-            layouts and electronic configuration of medical devices.
-          </p>
-          <p>Libraries: Pandas.</p>
-          <p>Programming Languages: Python.</p>
-          <p>Source Control: GIT, GitHub.</p>
-          <p>Other: XML.</p>
-        </div>
-      </div>
-      <div style="display: flex; flex-direction: column">
-      <div class="title">Education</div>
-      <!-- Education 1-->
-      <div class="experience-item">
-      <p>Metropolitan State University of Denver</p>
-      <p>Denver, Colorado</p>
-      <p>Major: Mathematics</p>
-      <p>Minor: Computer Science</p>
-      </div>
+<hr>
+
+<head>
+  <title>Andres Restrepo</title>
+  <link rel="stylesheet" href="./styles/titles.css" />
+</head>
+
+<body style="padding-left: 10%; padding-right:10%">
+  <p class="title">Andres Restrepo</p>
+  <p class="title-foot"> Westminster, Colorado | andresar47@gmail.com | <a
+      href="https://www.linkedin.com/in/restrepoandres" target="_blank">LinkedIn</a></p>
+  <hr>
+  <div class="subtitle">Work Experience</div>
+  <!-- Experience-->
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Software Engineer II</b></span>
+      <span>Sierra Nevada Corporation</span>
     </div>
-  </body>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Centennial, Colorado</span>
+      <span> January 2024</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Developed features and provided bugfixes in a full stack enviroment that used .NET 6.0 on the backend;
+      Typescript and React
+      on the frontend and SNMP for hardware interaction against an ARC 210 radio.</li>
+    <li>Developed a Java based application that acted as middleware between gRPC clients and services subscribed to a
+      Kafka instance.</li>
+    <li>Conducted a trade study that evaluated the sutability of using Kubernetes to deploy existing services,
+      documented results explaining scalibility requirements and provided a set of helm charts as proof of concept.</li>
+    <li>Lead a team of 4 Software Engineer Interns in an effort that used Ansible, Bash, Python and Docker Compose to
+      automate
+      the deployment and the configuration settings of over 15 microservices. </li>
+    <li>Mentored 5 Software Engineer Interns in the timespan of two summers, successfully lead 3 members of this
+      internship cohort into full time positions.</li>
+  </ul>
+  <!-- Experience-->
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Software Engineer I</b></span>
+      <span>Sierra Nevada Corporation</span>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Centennial, Colorado</span>
+      <span> August 2022 - January 2024</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Designed and implemented a backend message exchange framework using C++, PInvoke and .NET 6.0; this framework
+      was used as one the main libraries on over 10 microservices that spanned over 2 different projects.
+    </li>
+    <li>Created a micro frontend prototype for a React application using Webpack's Module Federation Plugin; micro
+      frontend prototype later turned into a reusable frontend core app that got extended by 2 different teams.</li>
+    <li>Maintained CI/CD pipelines for the hosting, building and packaging of code using Bash, Bamboo, Bitbucket,
+      Docker, Curl, Jfrog, Maven, Npm, .NET 6.0 and Webpack.</li>
+    <li>Maintained the deployment files used in demostrations to internal teams and to external customers; successfully
+      supported demostrations that resulted in the acqusition of 3 different contracts.</li>
+    <li>Maintained Docker files for micro service applications, deployed event driven micro services using
+      Docker Compose.</li>
+    <li>Mentored 2 Software Engineer Interns in the timespan of two summers, successfully lead both interns into full
+      time positions.</li>
+  </ul>
+  <!-- Experience-->
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Engineering Technician</b></span>
+      <span>Terumo BCT</span>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Lakewood, Colorado</span>
+      <span> December 2021 - July 2022</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Used a proprietary C++ based domain language to develop finite state machine routines that tested the life
+      expectancy of medical devices and their subassemblies.</li>
+    <li>Used Python to develop scripts that performed the transfering of large sets of data logs within a local area
+      network.</li>
+    <li>Used Python to develop numerical method solutions that transformed the raw output of sensor signals into
+      meaningful units.</li>
+    <li>Used bash to automated tasks in single board computers that used a custom Linux distribution.</li>
+    <li>Maintained a set of configuration files that handled the CAN bus infrastructure of hardware testing fixtures.
+    </li>
+  </ul>
+  <!-- Experience-->
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Software Engineering Intern</b></span>
+      <span>Terumo BCT</span>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Lakewood, Colorado</span>
+      <span> July 2021 - December 2021</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Used a proprietary C++ based domain language to develop finite state machine routines that commanded the
+      pneumatic layouts and sensor state of medical devices.</li>
+    <li>Used Python to develop scripts that performed the analysis and visualization of sensor outputs retrieved from
+      data logs.</li>
+  </ul>
+  <!-- Experience-->
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Mathematics Teaching Assistant</b></span>
+      <span>Metropolitan State University of Denver</span>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Denver, Colorado</span>
+      <span> August 2020 - December 2020</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Held virtual sessions in which I tutored the students of senior level mathematics courses, used Latex to provide
+      solutions to exams and proposed problems in class.</li>
+  </ul>
+  <hr>
+  <div class="subtitle">Education</div>
+  <div class="section-title">
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span><b>Bachelor of Science</b></span>
+      <span>Metropolitan State University of Denver</span>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between">
+      <span> Denver, Colorado</span>
+      <span> December 2020</span>
+    </div>
+  </div>
+  <ul class="experience-item">
+    <li>Major: <i>Mathematics</i>; Minor: <i>Computer Science</i>; Honors: <i>Cum Laude</i>.</li>
+    <li><i>Mathematics Coursework</i>: Probability and Statistics, Probability Theory, Linear Algebra, Abstract Algebra
+      and Numerical Analysis.</li>
+    <li><i>Computer Science Coursework</i>: Data Structure and Algorithms, Computer Graphics, Machine Learning, and
+      Software Development Methods and
+      Tools.</li>
+  </ul>
+  <hr>
+  <div class="subtitle">Proficiencies</div>
+  <div class="container">
+    <div><i>Programming Languages</i>: C#, Java, Python, Typescript, C++.</div>
+    <div><i>Network Protocols</i>:gRPC, HTTP, TCP, UDP, SNMP, Websockets.</div>
+    <div><i>General</i>: Event Driven Architecture, Object Oriented Programming, Scripting, Unit Testing, Hardware
+      Software Interaction.</div>
+  </div>
+</body>
+<hr>
+
 </html>

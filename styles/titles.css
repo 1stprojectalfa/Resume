@@ -1,16 +1,30 @@
 .title{
     font-family: 'Times New Roman';
-    font-weight: 900;
-    font-size: large;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+    text-align: center
+}
+
+.title-foot{
+    font-family: 'Times New Roman';
+    font-size: medium;
     margin-bottom: 1rem;
     text-align: center
 }
 
 .subtitle{
     font-family: 'Times New Roman';
-    font-weight: 900;
-    font-size: large;
+    font-weight: bold;
+    font-size: x-large;
     margin-bottom: 1rem;
+    text-align: center
+}
+
+.section-title{
+    font-family: 'Times New Roman';
+    margin-top: 1rem;
+    text-align: center
 }
 
 .body{
@@ -24,6 +38,10 @@
     font-weight: 900;
 }
 
-.experience-item{
-    max-width: 35rem;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
 }
+
+ul.experience-item li { margin-bottom: 0.5rem; }
