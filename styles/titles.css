@@ -24,7 +24,8 @@
 .section-title{
     font-family: 'Times New Roman';
     margin-top: 1rem;
-    text-align: center
+    text-align: center;
+    font-size: medium;
 }
 
 .body{
@@ -39,7 +40,6 @@
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-
 }
 
 ul.experience-item li { margin-bottom: 0.5rem; }
