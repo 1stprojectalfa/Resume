@@ -42,4 +42,4 @@
   grid-template-columns: auto auto auto;
 }
 
-ul.experience-item li { margin-bottom: 0.5rem; }
+ul.experience-item li { margin-bottom: 0.5rem;  font-size: medium}
