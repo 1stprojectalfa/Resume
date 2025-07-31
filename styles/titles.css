@@ -37,9 +37,4 @@
     font-family: 'Times New Roman';
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
 ul.experience-item li { margin-bottom: 0.5rem;  font-size: medium}
